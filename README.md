@@ -166,6 +166,15 @@
 ## Machine learning and deep learning
 
 * [Huggingface](https://huggingface.co/) | [Doc](https://huggingface.co/docs)
+    * Upload model
+    * Upload data
+    * Space for interactive app
+    * Deploy your model in sagemaker
+    * Write webhooks for MLOPS
+    * Pull request and discussion : 
+        * File and version > new pull request
+        Note: Under the hood, our Pull requests do not use forks and branches, but instead, custom "branches" called refs that are stored directly on the source repo.
+    * Automatic fine tune with auto train
 * [Pytorch] | [Documentation]()
 - [X] [Numpy](https://numpy.org/doc/)
 - [X] [Sklearn](https://scikit-learn.org/stable/)
