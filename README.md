@@ -116,7 +116,8 @@
 - [X] [ObjectDB](https://www.objectdb.com/database/jdo/manual)
 - [X] [ZODB](https://zodb.org/en/latest/)
 
-
+**Vector Database**
+- [X] [vdbs](https://vdbs.superlinked.com/)
 
 **Data Lakes**
 
