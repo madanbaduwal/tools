@@ -2,128 +2,46 @@
 
 ## Python 
 
-- [X] [PyChecker]()
-- [X] Profiling Tools
-	- [X] [cProfile](https://docs.python.org/3.2/library/profile.html)
-	- [X] [Profile](https://docs.python.org/3.2/library/profile.html)
-	- [X] [Pympler](https://pythonhosted.org/Pympler/)
-	- [X] [Objgraph](https://mg.pov.lt/objgraph/)
-	- [X] [pyinstrument](https://github.com/joerick/pyinstrument)
-- [X] [Regex For Noobs (like me!) - An Illustrated Guide](https://www.janmeppe.com/blog/regex-for-noobs/)
-- [X] [argparse](https://docs.python.org/3/library/argparse.html): Write user-friendly command-line interfaces  
-- [X] [beautifulsoup](https://pypi.org/project/beautifulsoup4/): Pull data out of HTML and XML files  
-- [X] [black](https://github.com/psf/black): Opiniated code formatter for python code  
-- [boto/boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html): Control AWS service with pure python code  
-- [X] [conda](https://docs.conda.io/en/latest/): Package, dependency and environment management  
-- [X] [datetime](https://docs.python.org/3/library/datetime.html): Supplies classes for manipulating dates and times 
-- [X] [fastai](https://pypi.org/project/fastai/): fastai makes deep learning with PyTorch faster, more accurate, and easier  
-- [X] [gspread](https://github.com/burnash/gspread): Python library to interact with Google Sheets  
-- [X] [gunicorn](https://pypi.org/project/gunicorn/): Production web server for Flask, Django apps  
-- [X] [ipython](https://pypi.org/project/ipython/): IPython: Productive Interactive Computing  
-- [X] [itertools](https://docs.python.org/2/library/itertools.html): Functions creating iterators for efficient looping  
-- [X] [json](https://docs.python.org/3/library/json.html): Read and write JSON files  
-- [X] [jupyter](https://pypi.org/project/jupyter/): Jupyter notebooks  
-- [X] [jupyterlab](https://pypi.org/project/jupyterlab/): An extensible environment for interactive and reproducible computing, based on the Jupyter Notebook and Architecture  
-- [X] [memory-profiler](https://pypi.org/project/memory-profiler/): A module for monitoring memory usage of a python program  
-- [X] [mongoengine](https://pypi.org/project/mongoengine/): MongoEngine is a Python Object-Document Mapper for working with MongoDB.  
-- [X] [more_itertools](https://pypi.org/project/more-itertools/): More routines for operating on iterables, beyond itertools  
-- [X] [multiprocessing-logging](https://pypi.org/project/multiprocessing-logging/): Logger for multiprocessing applications  
-- [X] [xlrd](https://pypi.org/project/xlrd/): Extract data from Excel spreadsheets  
-- [X] [yaml](https://pyyaml.org/wiki/PyYAMLDocumentation): YAML parser and emitter for Python  	
-- [X] [pipenv](https://pypi.org/project/pipenv/): Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.  
-- [X] [pymongo](https://pypi.org/project/pymongo/): Python driver for MongoDB  
-- [X] [pymysql](https://pypi.org/project/PyMySQL/): Pure Python MySQL Driver  
-- [X] [pypdf2](https://pypi.org/project/PyPDF2/): PDF toolkit  
-- [X] [pyspark](https://pypi.org/project/pyspark/): Apache Spark Python API  
-- [X] [pytest](https://pypi.org/project/pytest/): pytest: simple powerful testing with Python  
-- [X] [python-dotenv](https://pypi.org/project/python-dotenv/): Add .env support to your django/flask apps in development and deployments  
-- [X] [pyyaml](https://pypi.org/project/PyYAML/): YAML 1.1 parser  
-- [X] [rasterio](https://pypi.org/project/rasterio/): Reads and writes GeoTIFF formats and provides a Python API based on N-D arrays  
-- [X] [re](https://docs.python.org/3/library/re.html): Regular expression matching operations  
-- [X] [requests](https://pypi.org/project/requests/): HTTP library for Python   
-- [X] [sqlalchemy](https://www.sqlalchemy.org/): Python SQL toolkit  
-- [X] [tabulapy](https://pypi.org/project/tabula-py/): Python wrapper of tabula-java, which can read table of PDF   
-- [X] [urllib](https://docs.python.org/3/library/urllib.html): Collects several modules for working with URLs  
-- [X] [awesome-python:Python Library](https://github.com/vinta/awesome-python)
+| **Tool**            | **Documentation**                              | **Note**                                                                           | **Other Resources**          |
+|---------------------|------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------|
+| PyChecker           | [PyChecker](https://pychecker.sourceforge.io/) | Static analysis tool for Python.                                                 |                             |
+| cProfile            | [cProfile Docs](https://docs.python.org/3.2/library/profile.html) | Profiling tool for Python code.                                                  | Official Python Docs        |
+| Pympler             | [Pympler Docs](https://pythonhosted.org/Pympler/) | Memory profiling and analysis for Python.                                        |                             |
+| Objgraph            | [Objgraph](https://mg.pov.lt/objgraph/)         | Visualize Python object graphs.                                                  |                             |
+| Regex Illustrated   | [Regex For Noobs](https://www.janmeppe.com/blog/regex-for-noobs/) | Illustrated guide for understanding regex.                                        |                             |
+| Argparse            | [Argparse Docs](https://docs.python.org/3/library/argparse.html) | Tool to create user-friendly command-line interfaces.                             |                             |
+| BeautifulSoup       | [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | Scrape and parse HTML/XML files.                                                 |                             |
+| Black               | [Black](https://github.com/psf/black)          | Opinionated Python code formatter.                                               |                             |
+| Boto3               | [Boto3 Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) | Simplify AWS API interactions using Python.                                       | AWS SDK for Python.         |
+| Conda               | [Conda Docs](https://docs.conda.io/en/latest/) | Dependency and environment management.                                           |                             |
+| Datetime            | [Datetime Docs](https://docs.python.org/3/library/datetime.html) | Classes for manipulating dates and times.                                        |                             |
+| FastAI              | [FastAI](https://pypi.org/project/fastai/)     | Deep learning framework built on PyTorch.                                        | Official Tutorials          |
+| Gspread             | [Gspread](https://github.com/burnash/gspread)  | Library to interact with Google Sheets.                                          |                             |
+| Gunicorn            | [Gunicorn](https://pypi.org/project/gunicorn/) | Production WSGI server for Python web apps.                                      |                             |
+| IPython             | [IPython](https://pypi.org/project/ipython/)   | Enhanced interactive Python shell.                                               |                             |
+| itertools           | [Itertools Docs](https://docs.python.org/2/library/itertools.html) | Functions creating iterators for efficient looping.                               |                             |
+| JSON                | [JSON Docs](https://docs.python.org/3/library/json.html) | Module for working with JSON data.                                               |                             |
+| Jupyter             | [Jupyter](https://pypi.org/project/jupyter/)   | Interactive computing and visualization.                                         | Jupyter Notebook Tutorials  |
+| Memory Profiler     | [Memory Profiler](https://pypi.org/project/memory-profiler/) | Monitor memory usage in Python programs.                                         |                             |
+| MongoEngine         | [MongoEngine](https://pypi.org/project/mongoengine/) | Object-Document Mapper (ODM) for MongoDB.                                        |                             |
+| Multiprocessing Logging | [Multiprocessing Logging](https://pypi.org/project/multiprocessing-logging/) | Logging for multiprocessing apps.                                                |                             |
+| PyYAML              | [PyYAML](https://pypi.org/project/PyYAML/)     | YAML parser and emitter for Python.                                              |                             |
+| SQLAlchemy          | [SQLAlchemy](https://www.sqlalchemy.org/)      | Python SQL toolkit and ORM.                                                      |                             |
+| Requests            | [Requests](https://pypi.org/project/requests/) | HTTP library for Python.                                                         |                             |
+| Pandas              | [Pandas Docs](https://pandas.pydata.org/docs/) | Data manipulation and analysis.                                                  | Tutorials, Examples         |
+| Elasticsearch       | [Elasticsearch Docs](https://www.elastic.co/)  | Search and analytics engine.                                                     |                             |
+| Airflow             | [Airflow Docs](https://airflow.apache.org/docs/apache-airflow/stable/index.html) | Workflow automation and orchestration tool.                                      |                             |
+| Redis               | [Redis Docs](https://redis.io/docs/)           | In-memory key-value database.                                                   | Tutorials, Community Forums |
+| AWS DynamoDB        | [DynamoDB Docs](https://docs.aws.amazon.com/dynamodb/index.html) | NoSQL key-value and document database.                                           | AWS SDK Guides              |
+| PostgreSQL          | [PostgreSQL Docs](https://www.postgresql.org/docs/) | Open-source relational database management system.                                | Community Forums             |
+| Neo4j               | [Neo4j Docs](https://neo4j.com/)              | Graph database management system.                                                | Tutorials, Community Forums |
+| Prometheus          | [Prometheus Docs](https://prometheus.io/docs/introduction/overview/) | Time-series database for monitoring and alerting.                                | Grafana Integration         |
+| Snowflake           | [Snowflake Docs](https://docs.snowflake.com/)  | Cloud-based data warehouse.                                                      |                             |
+| Databricks          | [Databricks Docs](https://docs.databricks.com/index.html) | Unified analytics platform.                                                      |                             |
 
 
 
-## Databases
 
-- [Schema design]()
-
-**Key-Value Database**: Picture a colossal locker room. Each locker (value) has a unique key. Storing and retrieving data becomes a cakewalk! Examples: Amazon QLDB, Redis, AWS DynamoDB.
-- [X] [Redis](https://redis.io/docs/)
-- [X] [AWS DynamoDB](https://docs.aws.amazon.com/dynamodb/index.html)
-- [X] [apache Hbase](https://hbase.apache.org/book.html)
-
- **Document Database**: Store data in a flexible, document-like format (similar to JSON). MongoDB and Couchbase excel in this space, offering efficient querying and flexibility.
-
-- [X] [MongoDB](https://www.mongodb.com/docs/)
-    - [X] [mongo compass]()
-	- [X] [studio 3T]()
-	- [X] [Pymongo]()
-
-- [X] [Couchbase/CouchDB](https://docs.couchbase.com/home/index.html)
-
-
-**Relational database/SQL(RDBMS)**: The classical choice! SQL databases store structured data in tables and support powerful queries. MySQL, Oracle, and Microsoft SQL Server are stalwarts in this space. Relational databases are also called a relational database management system (RDBMS) or SQL database.
-  - [X] [MYSQL](https://dev.mysql.com/doc/)
-  - [X] [Oracle](https://www.oracle.com/database/)
-  - [X] [Microsoft SQL Server](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
-  - [X] [PostgreSQL](https://www.postgresql.org/docs/)
-  - [X] [SQLite](https://www.sqlite.org/index.html)
-
-**Columnar Databases**: These databases store data by columns, not rows. Ideal for analytical queries and efficient data compression. Apache Cassandra and DataStax are well-known examples.
-
-
-- [X] [Cassendra](https://cassandra.apache.org/_/index.html)
-- [X] [DataStax](https://docs.datastax.com/en/home/docs/index.html)
-
-**NewSQL**: It's the perfect blend of NoSQL scalability with SQL's reliability. Key players include CockroachDB, VoltDB, and NuoDB.
-
-- [X] [CockroachDB](https://www.cockroachlabs.com/docs/stable/)
-- [X] [VoltDB](https://docs.voltdb.com/)
-- [X] [NuoDB](https://doc.nuodb.com/nuodb/latest/release-notes/)
-- [X] [SinglesStore](https://docs.singlestore.com/)
-- [X] [clustrix](https://dbdb.io/db/clustrix)
-
-
-**Graph Database**: The social network of databases! They're champions in delivering deep insights about connections. Think LinkedIn network analysis with Neo4j or AWS Neptune.
-- [X] [Neo4j](https://neo4j.com/)
-- [X] [AWS Neptune](https://docs.aws.amazon.com/neptune/index.html)
-- [X] [Janus Graph](https://docs.janusgraph.org/)
-
-**Time-Series Databases**: A dream for tracking changes over time, like stock prices or weather data. InfluxDB and Prometheus are top picks for their superior query performance.
-
-- [X] [InfluxDB](https://docs.influxdata.com/)
-- [X] [KairosDB](https://kairosdb.github.io/docs/index.html)
-- [X] [Prometheus](https://prometheus.io/docs/introduction/overview/)
-- [X] [ClickHouse](https://clickhouse.com/docs/en/intro)
-
-**Spatial Databases**: Geography and technology entwine! These databases store geographic data (like coordinates for landmarks or cities). They're the powerhouse behind Google Maps and Uber!
-
-- [X] [Snowflake](https://docs.snowflake.com/)
-- [X] [Oracle](https://docs.oracle.com/en/)
-- [X] [Microsoft SQL Server ](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
-
-**Ledger Database**: These databases stand for transparency and immutability. They're the backbone of blockchain technologies, with Apache HBase being a notable example.
-- [X] [Amazon QLDB](https://docs.aws.amazon.com/qldb/index.html)
-
-
-**Object Databases**: Data as objects, mirroring object-oriented programming. ObjectDB and ZODB provide encapsulation, inheritance, polymorphism, and more.
-
-- [X] [ObjectDB](https://www.objectdb.com/database/jdo/manual)
-- [X] [ZODB](https://zodb.org/en/latest/)
-
-**Vector Database**
-- [X] [vdbs](https://vdbs.superlinked.com/)
-
-**Data Lakes**
-
-- [X] [Snowflake](https://docs.snowflake.com/)
-
-- [X] [Databricks](https://docs.databricks.com/index.html)
 
 - [X] [Cloudera](https://docs.cloudera.com/management-console/cloud/data-lakes/topics/mc-data-lake.html)
 
